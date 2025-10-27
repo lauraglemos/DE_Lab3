@@ -23,6 +23,10 @@ def run_pipeline():
         try:
             dicom = pydicom.dcmread(filepath)
 
+ 
+
+            # print(dicom)
+
             # print(f"DEBUG: Archivo: {filepath.split(os.sep)[-1]} | Tipo de PixelSpacing: {type(dicom.get('PixelSpacing'))} | Valor: {dicom.get('PixelSpacing')}")
 
             # PATIENT DIMENSION
@@ -38,7 +42,7 @@ def run_pipeline():
 
             station_data = {
 
-                'station_id': dicom.get('StationName', 'NA'),
+                'station_id': dicom.get('StationName', 'NA'), # igual hai que quitalo porque ou sale vacío ou NA
                 'manufacturer' : dicom.get('Manufacturer', 'NA'),
                 'model' : dicom.get('ManufacturerModelName', 'NA')
             }
@@ -65,7 +69,7 @@ def run_pipeline():
                 'pixel_spacing_x' : normalize_pixel_spacing(pixel_spacing[0]),
                 'pixel_spacing_y' : normalize_pixel_spacing(pixel_spacing[1]),
                 'slice_thickness' : dicom.get('SliceThickness',0), # Convertir a float?
-                'photometric_interp' : dicom.get('PhotometricInterprestation','NA'),
+                'photometric_interp' : dicom.get('PhotometricInterpretation','NA'),
             }
 
             image_sk = get_or_create(dim_image, image_data, 'image_sk')
@@ -100,7 +104,7 @@ def run_pipeline():
                         'protocol_sk': protocol_sk,
                         'study_date_sk': date_sk,
                         'exposure_time': dicom.get('ExposureTime', 0), # convertir a float?
-                        'tube_current': dicom.get('TubeCurrent', 0), # convertir a float?
+                        'tube_current': dicom.get('XRayTubeCurrent', 0), # convertir a float?
                         'file_path': jpeg_path
                     }
             
