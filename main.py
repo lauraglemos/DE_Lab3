@@ -24,11 +24,6 @@ def run_pipeline():
             dicom = pydicom.dcmread(filepath)
 
  
-
-            # print(dicom)
-
-            # print(f"DEBUG: Archivo: {filepath.split(os.sep)[-1]} | Tipo de PixelSpacing: {type(dicom.get('PixelSpacing'))} | Valor: {dicom.get('PixelSpacing')}")
-
             # PATIENT DIMENSION
 
             patient_data = {
@@ -40,15 +35,20 @@ def run_pipeline():
 
             patient_sk = get_or_create(dim_patient, patient_data, 'patient_sk')
 
+
+            # STATION DIMENSION
+
             station_data = {
 
-                'station_id': dicom.get('StationName', 'NA'), # igual hai que quitalo porque ou sale vacío ou NA
+                'station_id': dicom.get('StationName', 'NA'),
                 'manufacturer' : dicom.get('Manufacturer', 'NA'),
                 'model' : dicom.get('ManufacturerModelName', 'NA')
             }
 
             station_sk = get_or_create(dim_station, station_data, 'station_sk')
 
+
+            # PROTOCOL DIMENSION
 
             protocol_data = {
 
@@ -60,15 +60,18 @@ def run_pipeline():
 
             protocol_sk = get_or_create(dim_protocol, protocol_data, 'protocol_sk')
 
+
+            # IMAGE DIMENSION
+
             pixel_spacing = dicom.get('PixelSpacing', [None, None])
             image_data = {
 
                 'image_id': dicom.SOPInstanceUID,
-                'rows' : dicom.get('Rows', '0'),    # Convertir en int??
-                'columns' : dicom.get('Columns', '0'),    # Convertir en int??
+                'rows' : dicom.get('Rows', '0'),    
+                'columns' : dicom.get('Columns', '0'),   
                 'pixel_spacing_x' : normalize_pixel_spacing(pixel_spacing[0]),
                 'pixel_spacing_y' : normalize_pixel_spacing(pixel_spacing[1]),
-                'slice_thickness' : dicom.get('SliceThickness',0), # Convertir a float?
+                'slice_thickness' : dicom.get('SliceThickness',0), 
                 'photometric_interp' : dicom.get('PhotometricInterpretation','NA'),
             }
 
@@ -97,14 +100,17 @@ def run_pipeline():
 
             jpeg_path = dicom_to_jpeg(filepath, JPEG_OUTPUT_DIR, (256, 256))
 
+            # STUDY FACTS DIMENSION
+
+
             fact_study_doc = {
                         'station_sk': station_sk,
                         'patient_sk': patient_sk,
                         'image_sk': image_sk,
                         'protocol_sk': protocol_sk,
-                        'study_date_sk': date_sk,
-                        'exposure_time': dicom.get('ExposureTime', 0), # convertir a float?
-                        'tube_current': dicom.get('XRayTubeCurrent', 0), # convertir a float?
+                        'date_sk': date_sk,
+                        'exposure_time': dicom.get('ExposureTime', 0),
+                        'tube_current': dicom.get('XRayTubeCurrent', 0),
                         'file_path': jpeg_path
                     }
             

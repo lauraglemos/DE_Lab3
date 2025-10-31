@@ -1,0 +1,576 @@
+[{
+  "_id": {
+    "year": 1982,
+    "month": 6
+  },
+  "avg_exposure": 750,
+  "avg_current": 223,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1982,
+    "month": 8
+  },
+  "avg_exposure": 600,
+  "avg_current": 306.6666666666667,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1982,
+    "month": 11
+  },
+  "avg_exposure": 500,
+  "avg_current": 342,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1982,
+    "month": 12
+  },
+  "avg_exposure": 750,
+  "avg_current": 189,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 1
+  },
+  "avg_exposure": 750,
+  "avg_current": 206,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 3
+  },
+  "avg_exposure": 750,
+  "avg_current": 206,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 4
+  },
+  "avg_exposure": 500,
+  "avg_current": 360,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 5
+  },
+  "avg_exposure": 750,
+  "avg_current": 189,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 6
+  },
+  "avg_exposure": 500,
+  "avg_current": 313,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 7
+  },
+  "avg_exposure": 750,
+  "avg_current": 223,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 9
+  },
+  "avg_exposure": 500,
+  "avg_current": 300,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1983,
+    "month": 10
+  },
+  "avg_exposure": 500,
+  "avg_current": 342,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1984,
+    "month": 2
+  },
+  "avg_exposure": 766.6666666666666,
+  "avg_current": 172.66666666666666,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1984,
+    "month": 6
+  },
+  "avg_exposure": 500,
+  "avg_current": 360,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1984,
+    "month": 7
+  },
+  "avg_exposure": 500,
+  "avg_current": 391,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1984,
+    "month": 8
+  },
+  "avg_exposure": 750,
+  "avg_current": 189,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1984,
+    "month": 11
+  },
+  "avg_exposure": 500,
+  "avg_current": 396,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1985,
+    "month": 3
+  },
+  "avg_exposure": 500,
+  "avg_current": 304.3333333333333,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1985,
+    "month": 7
+  },
+  "avg_exposure": 500,
+  "avg_current": 242,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1985,
+    "month": 11
+  },
+  "avg_exposure": 700,
+  "avg_current": 186,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1985,
+    "month": 12
+  },
+  "avg_exposure": 800,
+  "avg_current": 104,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 1
+  },
+  "avg_exposure": 500,
+  "avg_current": 360,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 2
+  },
+  "avg_exposure": 800,
+  "avg_current": 150,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 3
+  },
+  "avg_exposure": 500,
+  "avg_current": 229,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 4
+  },
+  "avg_exposure": 800,
+  "avg_current": 107,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 5
+  },
+  "avg_exposure": 666.6666666666666,
+  "avg_current": 202.33333333333334,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 8
+  },
+  "avg_exposure": 725,
+  "avg_current": 164.5,
+  "scans": 4
+},
+{
+  "_id": {
+    "year": 1986,
+    "month": 9
+  },
+  "avg_exposure": 600,
+  "avg_current": 262.3333333333333,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 1987,
+    "month": 1
+  },
+  "avg_exposure": 800,
+  "avg_current": 106,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1989,
+    "month": 9
+  },
+  "avg_exposure": 526,
+  "avg_current": 300,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1990,
+    "month": 9
+  },
+  "avg_exposure": 870,
+  "avg_current": 160,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1990,
+    "month": 10
+  },
+  "avg_exposure": 526,
+  "avg_current": 300,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1991,
+    "month": 4
+  },
+  "avg_exposure": 800,
+  "avg_current": 40,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1992,
+    "month": 10
+  },
+  "avg_exposure": 800,
+  "avg_current": 143,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1993,
+    "month": 10
+  },
+  "avg_exposure": 1000,
+  "avg_current": 200,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1994,
+    "month": 9
+  },
+  "avg_exposure": 500,
+  "avg_current": 322,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1995,
+    "month": 1
+  },
+  "avg_exposure": 1000,
+  "avg_current": 160,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1995,
+    "month": 5
+  },
+  "avg_exposure": 965,
+  "avg_current": 184,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1995,
+    "month": 7
+  },
+  "avg_exposure": 1000,
+  "avg_current": 200,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1995,
+    "month": 9
+  },
+  "avg_exposure": 808,
+  "avg_current": 164,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1996,
+    "month": 7
+  },
+  "avg_exposure": 598,
+  "avg_current": 650,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1997,
+    "month": 3
+  },
+  "avg_exposure": 800,
+  "avg_current": 639,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1997,
+    "month": 4
+  },
+  "avg_exposure": 1121,
+  "avg_current": 280,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1997,
+    "month": 6
+  },
+  "avg_exposure": 776,
+  "avg_current": 134,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1997,
+    "month": 8
+  },
+  "avg_exposure": 1052,
+  "avg_current": 120,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1998,
+    "month": 2
+  },
+  "avg_exposure": 1000,
+  "avg_current": 280,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 1998,
+    "month": 3
+  },
+  "avg_exposure": 513,
+  "avg_current": 295,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1998,
+    "month": 4
+  },
+  "avg_exposure": 926,
+  "avg_current": 263,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1998,
+    "month": 10
+  },
+  "avg_exposure": 600,
+  "avg_current": 280.5,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 1998,
+    "month": 12
+  },
+  "avg_exposure": 800,
+  "avg_current": 101,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2000,
+    "month": 1
+  },
+  "avg_exposure": 800,
+  "avg_current": 245,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2000,
+    "month": 6
+  },
+  "avg_exposure": 797.5,
+  "avg_current": 275,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 2000,
+    "month": 7
+  },
+  "avg_exposure": 1000,
+  "avg_current": 280,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2001,
+    "month": 2
+  },
+  "avg_exposure": 526,
+  "avg_current": 300,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 2002,
+    "month": 2
+  },
+  "avg_exposure": 535.5,
+  "avg_current": 380,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 2003,
+    "month": 1
+  },
+  "avg_exposure": 750,
+  "avg_current": 403.5,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 2003,
+    "month": 2
+  },
+  "avg_exposure": 500,
+  "avg_current": 366,
+  "scans": 2
+},
+{
+  "_id": {
+    "year": 2005,
+    "month": 7
+  },
+  "avg_exposure": 500,
+  "avg_current": 167,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2005,
+    "month": 8
+  },
+  "avg_exposure": 500,
+  "avg_current": 149,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2005,
+    "month": 10
+  },
+  "avg_exposure": 500,
+  "avg_current": 48,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2005,
+    "month": 11
+  },
+  "avg_exposure": 330,
+  "avg_current": 115,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2006,
+    "month": 1
+  },
+  "avg_exposure": 473.3333333333333,
+  "avg_current": 305.3333333333333,
+  "scans": 3
+},
+{
+  "_id": {
+    "year": 2006,
+    "month": 2
+  },
+  "avg_exposure": 500,
+  "avg_current": 304,
+  "scans": 1
+},
+{
+  "_id": {
+    "year": 2006,
+    "month": 7
+  },
+  "avg_exposure": 420,
+  "avg_current": 236,
+  "scans": 1
+}]

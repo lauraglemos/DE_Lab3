@@ -1,0 +1,14 @@
+[{
+  "_id": "CHEST",
+  "avg_age": 66.38550724637682,
+  "total_scans": 345,
+  "percent_male": 63.47826086956522,
+  "percent_female": 36.52173913043478
+},
+{
+  "_id": "LUNG",
+  "avg_age": 68.66666666666667,
+  "total_scans": 339,
+  "percent_male": 44.54277286135693,
+  "percent_female": 55.45722713864307
+}]

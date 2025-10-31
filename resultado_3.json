@@ -1,0 +1,12 @@
+[{
+  "_id": "CHEST",
+  "avg_rows": 512,
+  "avg_cols": 512,
+  "count": 50
+},
+{
+  "_id": "LUNG",
+  "avg_rows": 512,
+  "avg_cols": 512,
+  "count": 50
+}]

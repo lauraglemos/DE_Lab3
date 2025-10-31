@@ -7,7 +7,6 @@ from PIL import Image
 
 # Generate Surrogate Keys
 
-#  Mirar a ver cal é o formato dos datos que se lle pasa.
 def surrogate_key(values):
 
     key_string = json.dumps(values, sort_keys=True, separators=(',', ':'), ensure_ascii=False)

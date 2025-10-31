@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "fabricante": "GE MEDICAL SYSTEMS",
+    "parte_cuerpo": "LUNG"
+  },
+  "avg_exposure_time": 781.5246636771301,
+  "avg_tube_current": 83.91928251121077,
+  "count": 223
+},
+{
+  "_id": {
+    "fabricante": "SIEMENS",
+    "parte_cuerpo": "CHEST"
+  },
+  "avg_exposure_time": 640.8695652173913,
+  "avg_tube_current": 70.60289855072463,
+  "count": 345
+},
+{
+  "_id": {
+    "fabricante": "SIEMENS",
+    "parte_cuerpo": "LUNG"
+  },
+  "avg_exposure_time": 527.5,
+  "avg_tube_current": 66.58620689655173,
+  "count": 116
+}]

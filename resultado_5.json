@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "Volume Zoom"
+  },
+  "avg_exposure_time": 500,
+  "avg_slice_thickness": 4.529411764705882,
+  "scan_count_for_protocol": 17
+},
+{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "SOMATOM PLUS 4"
+  },
+  "avg_exposure_time": 750,
+  "avg_slice_thickness": 7.076923076923077,
+  "scan_count_for_protocol": 13
+},
+{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "Sensation 16"
+  },
+  "avg_exposure_time": 500,
+  "avg_slice_thickness": 4.142857142857143,
+  "scan_count_for_protocol": 7
+},
+{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "Emotion Duo"
+  },
+  "avg_exposure_time": 800,
+  "avg_slice_thickness": 5,
+  "scan_count_for_protocol": 6
+},
+{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "Emotion"
+  },
+  "avg_exposure_time": 800,
+  "avg_slice_thickness": 3.8,
+  "scan_count_for_protocol": 5
+},
+{
+  "_id": {
+    "manufacturer": "SIEMENS",
+    "model": "SOMATOM Emotion"
+  },
+  "avg_exposure_time": 800,
+  "avg_slice_thickness": 8,
+  "scan_count_for_protocol": 2
+}]
