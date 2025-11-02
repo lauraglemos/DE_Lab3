@@ -1,0 +1,4 @@
+numpy==2.3.4
+Pillow==12.0.0
+pydicom==3.0.1
+pymongo==4.15.3
